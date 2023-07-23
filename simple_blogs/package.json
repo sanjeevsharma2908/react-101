@@ -1,5 +1,5 @@
 {
-  "name": "fetch-request",
+  "name": "simple_blogs",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
