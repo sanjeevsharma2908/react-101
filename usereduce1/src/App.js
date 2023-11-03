@@ -26,12 +26,17 @@
 import './App.css';
 import Counter from './Components/Counter';
 import { TodoApp } from './TodoApp';
+import AppProvider from './context/AppContext';
 
 function App() {
   return (
     <div className="App">
-   {/* // < Counter /> */}
-    <TodoApp />
+      <AppProvider>
+        < Counter />
+        <TodoApp />
+      </AppProvider>
+      {/* <Counter />
+      <TodoApp /> */}
     </div>
   );
 }
